@@ -1,53 +1,37 @@
+body{
+    margin-top: 20px;
+}
 .main{
-    margin-top: 100px;
-}
-.logo{
-    background: white;
+    background: lightblue;
     display:flex;
-    width:400px;
-    justify-content: center; 
-    margin: 0 auto; 
-    
-}
-.input-box{
-    display:flex;
-    width:500px;
-    line-height: 25px;
-    justify-content: center;
+    width:600px;
+    justify-content: left;
     margin: 0 auto;
-    border: 1px solid grey;
-    border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    border-bottom: 8px solid blueviolet;
 }
-.btn-wrapper{
-    display:flex;
-    justify-content: center;
-   
-    padding-top: 10px;
-   
-    
+.profile{
+        padding-left:20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 40px;
+    width:250px;
+    margin-right: 20px;
+    border-radius: 40px;
 }
-.search-btn{
-     padding-bottom: 10px;
-       padding-top:10px;
-       border: none;
-    padding-left: 20px;
-    padding-right: 20px;
-     border-radius: 8px;
-     margin-left: 10px;
-     margin-right: 10px;
+.name{
 
+    color: rgb(77, 72, 72);
+    font-size:xx-large;
+    font-style: italic;
 }
-.follow{
-       padding-bottom: 10px;
-       padding-top:10px;
-       border: none;
-    padding-left: 20px;
-    padding-right: 20px;
-     border-radius: 8px;
-     margin-left: 10px;
-      margin-right: 10px;
+.role{
+    font-size: large;
+    text-align: center;
+    color: rgb(62, 62, 65);
+    font-size: medium;
+}
+.city{
+    text-align:center;
+    text-shadow: 10px;
+  
 }
