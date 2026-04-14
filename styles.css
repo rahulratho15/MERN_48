@@ -1,37 +1,64 @@
 body{
-    margin-top: 20px;
-}
-.main{
-    background: lightblue;
-    display:flex;
-    width:600px;
-    justify-content: left;
-    margin: 0 auto;
-    border-bottom: 8px solid blueviolet;
-}
-.profile{
-        padding-left:20px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-left: 40px;
-    width:250px;
-    margin-right: 20px;
-    border-radius: 40px;
-}
-.name{
-
-    color: rgb(77, 72, 72);
-    font-size:xx-large;
-    font-style: italic;
-}
-.role{
-    font-size: large;
     text-align: center;
-    color: rgb(62, 62, 65);
-    font-size: medium;
+     font-family: "Happy Monkey", system-ui;
+     color: #ffffff;
+      background:linear-gradient(lightskyblue,pink);
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
-.city{
-    text-align:center;
-    text-shadow: 10px;
-  
+h1,h2,h4,h3,p{
+    text-shadow: 2px 2px 1px black;
+}
+#profile{
+    width:200px;
+    border-radius: 50%;
+    border:8px solid #efb0c9;
+}
+#age,#date{
+    background:#efb0c9;
+    padding:4px;
+    border:1px solid #500a0a;
+    margin:5px 0 10px 0;
+}
+#header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+#gift1{
+    margin-top: 40px;
+}
+.gift-img{
+    border: 10px solid #110101;
+    width:400px;
+    height: 400px;
+    background-image: url('./images-notes/gift.webp');
+    /* background: linear-gradient(red,blue,grey); */
+    background-size: cover;
+    
+}
+.gift-img:hover{
+    background-image: url("images-notes/leonardo-dicaprio-clapping.gif");
+    background-size: cover;
+}
+#laugh-img:hover{
+    background-image: url("./images-notes/leolaugh.webp");
+    background-size: cover;
+}
+#cheers-img{
+   background-size: cover;
+    height:200px;
+}
+#cheers-img:hover{
+    background-image: url('./images-notes/leo\ tensed.webp');
+    background-size: cover;
+}
+#footer{
+    width:200px;
+    color:#ffffff;
+    font-style: italic;
+    margin:0 auto;
 }
