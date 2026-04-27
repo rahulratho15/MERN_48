@@ -1,64 +1,68 @@
 body{
+    background:linear-gradient(lightblue,pink);
     text-align: center;
-     font-family: "Happy Monkey", system-ui;
-     color: #ffffff;
-      background:linear-gradient(lightskyblue,pink);
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
 }
-h1,h2,h4,h3,p{
-    text-shadow: 2px 2px 1px black;
-}
-#profile{
-    width:200px;
-    border-radius: 50%;
-    border:8px solid #efb0c9;
-}
-#age,#date{
-    background:#efb0c9;
-    padding:4px;
-    border:1px solid #500a0a;
-    margin:5px 0 10px 0;
-}
-#header{
+#scl-img{
+    background-image:url('./images-notes/park-grass.jpg');
+    width:auto;
+    height: 800px;
+    background-size: cover;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center
+   justify-content: center;
+   align-items: center;
+   
 }
-#gift1{
-    margin-top: 40px;
+.welcom-title{
+   
+    border:2px solid black;
+    h1{
+        margin:0;
+    }
+    background-color: lightcoral;
 }
-.gift-img{
-    border: 10px solid #110101;
-    width:400px;
-    height: 400px;
-    background-image: url('./images-notes/gift.webp');
-    /* background: linear-gradient(red,blue,grey); */
-    background-size: cover;
-    
+@font-face{
+    font-family: "Vinland";
+    src:url("./fontss/Vinland.ttf") format("truetype");
 }
-.gift-img:hover{
-    background-image: url("images-notes/leonardo-dicaprio-clapping.gif");
-    background-size: cover;
+.welcom-title,
+.suggestion{
+     border:2px solid black;
+     h1{
+         margin:0;
+     }
+     margin-top:10px;
+     background-color: lightsalmon;
 }
-#laugh-img:hover{
-    background-image: url("./images-notes/leolaugh.webp");
-    background-size: cover;
+.welcom-title h1 {
+ font-family: "Vinland",serif;
+ font-weight: bold;
+ font-style: bold;
+ letter-spacing: 2px;
+ word-spacing: 4px;
 }
-#cheers-img{
-   background-size: cover;
-    height:200px;
+.suggestion h1{
+     font-family: "Vinland",serif;
+ font-weight: normal;
+ font-style: normal;
+ letter-spacing: 2px;
+ word-spacing: 4px;
 }
-#cheers-img:hover{
-    background-image: url('./images-notes/leo\ tensed.webp');
-    background-size: cover;
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: large;
 }
-#footer{
-    width:200px;
-    color:#ffffff;
-    font-style: italic;
-    margin:0 auto;
+
+.no-enime-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.noeni-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  
 }
