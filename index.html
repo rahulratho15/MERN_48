@@ -1,28 +1,23 @@
-<!doctype>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>HomeTome</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        
-        <div id="scl-img">
-            <div class="welcom-title">
-                <h1>Welcome to Vinland</h1>
-            </div>
-          <div class="suggestion">
-                <h1>You must watch Vinland Saga!</h1>
-            </div>
-        </div>
-       
-        <p>Top three things You can learn from Vinland Saga</p>
-      
-<div class="no-enime-img">
-    <img src="./images-notes/noEnimies.jpg" class="noeni-img">
-    <img src="./images-notes/peace.jpg" class="noeni-img">
-    <img src="./images-notes/vinlando me.jpg" class="noeni-img">
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+   
+    <h1 id="message-el">BlackJack</h1>
+    <h2>Want to play a round</h2>
+    <p id="cards">Cards:</p>
+    <p id="sum">Sum: </p>
+    <div id="btns">
+            <button onclick=startGame() id="start-btn">Start Game</button>
+    <button onclick=newCard() id="newCard-btn">New Card</button>
+    </div>
 
-<!-- ...existing code... -->
-    </body>
-</html>
+      <script src="scripts.js"></script>
+</body>
+</html> 
